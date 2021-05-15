@@ -4,7 +4,7 @@ header('Content-type: application/json');
 
 $conn = new mysqli('achi-mysql', 'root', '123456', 'devops');
 if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+  die("Connection failed :( : " . $conn->connect_error);
 }
 
 $sql = "SELECT * FROM `phrase`";
