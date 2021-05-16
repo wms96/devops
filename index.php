@@ -15,7 +15,7 @@ if($result = mysqli_query($conn, $sql)){
     //$response = array();
     $response =  $row['phrase'];
 
-echo json_encode($response."ramy");
+echo json_encode($response."ramy2223312321321321321");
 
 
 
