@@ -15,10 +15,7 @@ if($result = mysqli_query($conn, $sql)){
     //$response = array();
     $response =  $row['phrase'];
 
-        echo json_encode($response."test");
-
-
-
+        echo json_encode($response);
 
     }
         mysqli_free_result($result);
